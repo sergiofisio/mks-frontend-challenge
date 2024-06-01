@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 100%;
+  background-color: var(--grey-color);
+  color: #000000;
+
+  h2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
