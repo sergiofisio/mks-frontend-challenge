@@ -1,12 +1,20 @@
+.modalContainer {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #bfbfbf28;
+}
 .modal {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-
-  position: absolute;
-  top: 0;
-  right: 0;
   padding: 36px 47px;
 
   width: 486px;

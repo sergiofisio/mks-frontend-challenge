@@ -54,7 +54,7 @@ export default function Body({
     );
 
   return (
-    <div className="body">
+    <div className="body" onClick={() => setModal(false)}>
       <div>
         {!isLoading &&
           (loading ? (
